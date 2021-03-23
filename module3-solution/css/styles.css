@@ -1,0 +1,107 @@
+* {
+  box-sizing: ;
+} 
+
+h1 {
+  text-align: center;
+  font-family: 'Pangolin', cursive;
+}
+
+div {
+  font-family: cursive;
+}
+
+div .mainContent {
+  margin-top: 80px;
+}
+
+div .background {
+  background-color: grey;
+  border: 7px solid green;
+  margin: 3px;
+  height: 50%;
+  padding: 0px 0px 4px 4px;
+}
+
+#contenedor1 {
+  background-color: red;
+}
+
+#contenedor2 {
+  background-color: green;
+  color: white;
+}
+
+#contenedor3 {
+  background-color: cyan;
+}
+
+.main-boxes {
+  width: 100%;
+}
+
+.other-box {
+  width: 100%;
+}
+
+.titulo {
+  width: 150px;
+  height: 60px;
+  text-align: center;
+  float: right;
+  position: relative;
+  border: 3px solid blue;
+  margin: 0px;
+}
+
+.header-font {
+  font-size: 1.3em;
+  padding: 6px 5px 6px 5px;
+}
+
+.navbar-default {
+  background-color: green;
+  color: white;
+}
+
+.optionSubtitles {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    height: 675px;
+  }
+
+  .main-boxes {
+    width: 32%;
+  }
+
+  .other-box {
+    width: 32%;
+  }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    height: 558px;
+  }
+
+  .main-boxes {
+    width: 49%;
+  }
+
+  .other-box {
+    width: 98%;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    height: 432px;
+  }
+}
