@@ -3,7 +3,6 @@
 } 
 
 h1 {
-  text-align: center;
   font-family: 'Pangolin', cursive;
 }
 
@@ -12,28 +11,26 @@ div {
 }
 
 div .mainContent {
-  margin-top: 80px;
+  margin: 15px 10px 15px 10px;
 }
 
 div .background {
-  background-color: grey;
+  background-color: #b79dea;
   border: 7px solid green;
   margin: 3px;
-  height: 50%;
   padding: 0px 0px 4px 4px;
 }
 
 #contenedor1 {
-  background-color: red;
+  color: red;
 }
 
 #contenedor2 {
-  background-color: green;
   color: white;
 }
 
 #contenedor3 {
-  background-color: cyan;
+  color: blue;
 }
 
 .main-boxes {
@@ -45,18 +42,15 @@ div .background {
 }
 
 .titulo {
-  width: 150px;
-  height: 60px;
-  text-align: center;
-  float: right;
-  position: relative;
-  border: 3px solid blue;
-  margin: 0px;
+  font-family: fantasy;
+  font-size: 1.5em;
 }
 
 .header-font {
-  font-size: 1.3em;
+  font-size: 1.7em;
   padding: 6px 5px 6px 5px;
+  font-family: 'tahoma', serif;
+  text-transform: uppercase;
 }
 
 .navbar-default {
